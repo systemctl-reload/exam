@@ -1,0 +1,359 @@
+1) What is the purpose of a NiFi Processor?
+2) Can we use Kafka without Zookeeper?
+3) What actually is a NiFi FlowFile?
+4) What is the importance of ZooKeeper in Kafka?
+5) What Is The NiFi Template?
+6) What is a NiFi process group?
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+1) What Is Apache Nifi?
+A) NiFi is helpful in creating DataFlow
+B) It means you can transfer data from one system to another system as well as process
+the data in between
+C) Both A and B
+D) None of the above
+
+Correct Answer : Option (C) : Both A and B
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+2) What language is Kafka written in?
+
+A) C ++
+B) Java
+C) PHP
+D) Python
+
+Correct Answer : Option (A) : Java
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+3) Is There A Programming Language That Apache Nifi Supports?
+
+A) Yes
+B) No
+C) Can be true or false
+D) Can not say
+Correct Answer : Option (A) : Yes
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+4. Apache NiFi consist of a ?
+
+A. web server
+B. flow controller
+C. processor
+D. All of the above
+Correct Answer : Option (D) : All of the above
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+5) Which is the configuration file for setting up ZooKeeper properties in Kafka?
+
+A) zookeeper.properties
+B) zk.yaml
+C) zookeeper.xml
+D) kafka.zk.properties
+
+Correct Answer : Option (A) : zookeeper.properties
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+6. Template is a re-usable workflow.
+A. TRUE
+B. FALSE
+C. Can be true or false
+D. Can not say
+Correct Answer : Option (A) : Yes
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+7. Apache NiFi was developed by ____?
+
+A) Microsoft
+B) Google
+C) Apache
+D) NSA
+Correct Answer: D) NSA
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+8) Apache NiFi is based upon which programming language?
+
+A) Java
+B) Ruby
+C) Python
+D) C++
+Correct Answer: A) Java
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+9) Which command is used in Kafka to add messages to a topic?
+
+A) Kafka-producer.sh
+B) Kafka-add-message.sh
+C) kafka-create-message.sh
+D) kafka-console-producer.sh
+
+Correct Answer : Option (D) : kafka-console-producer.sh
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+10) Apache Kafka runs a cluster of one or more servers called:
+
+A) Producers
+B) Brokers
+C) Consumers
+D) Streamers
+
+Correct Answer : Option (B): Brokers
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+11) What is the use Apache Kafka Cluster?
+
+A) Also, we can transform data into the standard format
+B) Moreover, it allows continuous processing of streaming data to the topics
+C) Through this, we can Alert as well as report the operational metrics
+D) All of the above
+
+Correct Answer : Option (D) : All of the above
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+12) What are use cases of Apache Kafka?
+
+A) Message queue
+B) Event streams
+C) Tracking and logging
+D) All of the above
+
+Correct Answer : Option (D) : All of the above
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+13) Kafka maintains feeds of messages in categories called:
+
+A) Chunks
+B) Domains
+C) Topics
+D) Messages
+
+Correct Answer : Option C) : Topics
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+14) How many brokers will be marked as leaders for a partition?
+
+A) Zero
+B) One
+C) Four
+D) Five
+
+Correct Answer : Option (B) : One
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+15) Which command is used in Kafka to retrieve messages from a topic?
+
+A) Kafka-console-consumer.sh
+B) kafka-get-message.sh
+C) kafka-read-message.sh
+D) Kafka-console-producer.sh
+
+Correct Answer : Option (A) : Kafka-console-consumer.sh
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+16) What is referred to as a broker in Kafka?
+
+A) Message
+B) Server
+C) Zookeeper
+
+D) Subscriber
+
+Correct Answer : Option (B) : Server
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+17) Queuing is a method of which of these?
+
+A) Cluster
+B) Zookeeper
+C) Apache Kafka
+D) Traditional message transfer
+
+Correct Answer : Option (D) : Traditional message transfer
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+18) What is the benefits of Apache Kafka over the traditional technique?
+
+A) Fast
+B) Durable
+C) Scalable
+D) All of the above
+
+Correct Answer : Option (D) : All of the above
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+19) Each kafka partition has one server which acts as the:
+
+A) staters
+B) leaders
+C) followers
+D) topic
+
+Correct Answer : Option (B) : leaders
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+20) What exactly Kafka key capabilities?
+
+A) Process streams of records as they occur
+B) Store streams of records in a fault-tolerant durable way
+C) Publish and subscribe to streams of records, similar to a message queue or enterprise
+messaging system
+D) All of the above
+
+Correct Answer : Option (D) : All of the above
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+21) Which are the elements of Kafka?
+
+A) Topic
+B) Producer
+C) Consumer
+D) All of these
+
+Correct Answer : Option (D) : All of the above
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+22) Kafka maintains feeds of messages in categories called:
+
+A) Topics
+B) Chunks
+C) domains
+D) messages
+
+Correct Answer : Option (A) Topics
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+23) What is a grouping of multiple brokers in Kafka?
+
+A) Cluster
+B) Ensemble
+C) Quorum
+D) Topic
+
+Correct Answer : Option A:) Cluster
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+24) What are the publishers and subscribers called in Kafka?
+
+A) Builders and Directors
+B) Leaders and Followers
+C) Creators and Viewers
+D) Producers and Consumers
+
+Correct Answer : D) Producers and Consumers
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+25) What is the risk policy to protect against loss?
+
+A) Replication Factor
+B) Apache Zookeeper
+C) Gossip Protocol
+D) Controller
+
+Correct Answer : A) Replication Factor
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+26) What is a centralized service for maintaining metadata about a cluster of distributed
+nodes?
+
+A) Topic
+B) Apache Zookeeper
+C) Apache Kafka
+D) Broker
+
+Correct Answer : B) Apache Zookeeper
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+
+27) Which of the following is true about Apache NiFi?
+
+A) Apache NiFi is the tool for ORM
+B) Apache NiFi is the message broker software.
+C) Apache NiFi is the data integration tool.
+D) All of the above
+Correct Answer: C) Apache NiFi is the data integration tool.
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+28) Which of the following are the advantages of NiFi?
+
+A) Apache NiFi supports Clustering.
+B) NiFi supports around 188 processors
+C) Apache NiFi allows data to be retrieved from remote workstations.
+D) All of the above
+Answer: D) All of the above
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+29) Which of the following repository provides all of the content found in all of NiFi&#39;s
+flowfiles?
+
+A) Content Repository
+B) FlowFile Repository
+C) Provenance Repository
+D) None of the above
+Answer: A) Content Repository
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++#
+
+30) Which of the following Apache Nifi&#39;s components is used to retrieve data from the
+processor that is not part of that process group?
+
+A) Processor
+B) Output Port
+C) Input Port
+D) Process Groups
+Answer: C) Input Port
